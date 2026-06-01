@@ -12,7 +12,7 @@ The project follows the required technology stack:
 
 ## Team Members
 
-| Name | Registration No. |
+|~ Name | Registration No. |
 |1. Hafiz Muhammad Ammar Ali | 2502123 |
 |2. Saad Khalid | 2502137 |
 |3. Marij Khan | 2502151 |
