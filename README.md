@@ -291,7 +291,6 @@ Deployment is optional, but the following platforms can be used:
 ### Database Deployment
 
 - Azure SQL
-- MongoDB Atlas, if MongoDB is used
 
 
 ## Conclusion
