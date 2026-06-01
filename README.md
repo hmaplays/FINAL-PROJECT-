@@ -30,7 +30,6 @@ The project follows the required technology stack:
 
 ## Folder Structure
 
-```text
 Task-Hub-main/
 │
 ├── frontend/          # Angular frontend application
@@ -39,9 +38,7 @@ Task-Hub-main/
 ├── report/            # Project report PDF/DOCX
 ├── demo/              # Video demo link or demo notes
 └── README.md          # Project documentation
-```
 
----
 
 ## Main Features
 
