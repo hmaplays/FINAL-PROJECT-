@@ -29,14 +29,20 @@ The project follows the required technology stack:
 
 ## Folder Structure
 
+```text
 Task-Hub-main/
 │
-├── frontend/          # Angular frontend application
-├── backend/           # ASP.NET Core Web API backend
-├── database/          # Database schema, seed data, and diagram
-├── report/            # Project report PDF/DOCX
-├── demo/              # Video demo link or demo notes
-└── README.md          # Project documentation
+├── frontend/        # Angular frontend application
+│
+├── backend/         # ASP.NET Core Web API backend
+│
+├── database/        # Database schema, seed data, and diagram
+│
+├── report/          # Project report PDF/DOCX
+│
+├── demo/            # Video demo link or demo notes
+│
+└── README.md        # Project documentation
 
 
 ## Main Features
