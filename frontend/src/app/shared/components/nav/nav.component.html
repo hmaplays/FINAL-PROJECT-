@@ -1,0 +1,24 @@
+<header class="topbar">
+  <a class="brand" routerLink="/">
+    <span class="brand-mark">H</span>
+    <span>TaskHub</span>
+  </a>
+
+  <nav class="nav-links">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">Overview</a>
+    <a *ngIf="user$ | async" routerLink="/dashboard" routerLinkActive="active" class="nav-item">Workspace</a>
+    <a *ngIf="user$ | async" routerLink="/projects" routerLinkActive="active" class="nav-item">Projects</a>
+    <a *ngIf="(user$ | async)?.role === 'Admin'" routerLink="/admin" routerLinkActive="active" class="nav-item">Control</a>
+  </nav>
+
+  <div class="nav-actions">
+    <ng-container *ngIf="user$ | async as user; else guestLinks">
+      <a class="secondary-button" [routerLink]="['/profile', user.id]">{{ user.fullName }}</a>
+      <button class="ghost-button" (click)="logout()">Sign Out</button>
+    </ng-container>
+    <ng-template #guestLinks>
+      <a class="secondary-button" routerLink="/login">Log In</a>
+      <a class="primary-button" routerLink="/signup">Get Started</a>
+    </ng-template>
+  </div>
+</header>
