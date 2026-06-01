@@ -229,8 +229,6 @@ export const API_BASE_URL = 'https://localhost:5001/api';
 
 ## Screenshots
 
-Add screenshots inside the `/report` or `/demo/screenshots` folder and update the paths below.
-
 ### Home Page
 
 ![Home Page](demo/screenshots/home.png)
@@ -291,7 +289,6 @@ Deployment is optional, but the following platforms can be used:
 ### Database Deployment
 
 - Azure SQL
-
 
 ## Conclusion
 
