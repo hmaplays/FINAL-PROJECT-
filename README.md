@@ -159,7 +159,7 @@ database/
 
 ---
 
-## Setup Instructions
+## Setup Instructions ( ALL PROJECT EXPLAINED )
 
 ### Prerequisites
 
